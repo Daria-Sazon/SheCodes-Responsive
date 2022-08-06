@@ -140,6 +140,11 @@ img {
   max-width: 530px;
 }
 
+.photo {
+  margin: 80px;
+  width: 500px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 45px;
