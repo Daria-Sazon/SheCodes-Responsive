@@ -137,12 +137,12 @@ img {
   background: none;
   font-size: 16px;
   line-height: 30px;
-  width: 530px;
+  max-width: 530px;
 }
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 26px;
+    font-size: 45px;
   }
 
   h2 {
@@ -161,6 +161,19 @@ img {
   .about-me {
     margin-bottom: 20px;
     padding: 100px 20px;
+  }
+
+  .about-apps {
+    font-size: 14px;
+    margin: 35px auto;
+  }
+
+  .name-app {
+    font-size: 35px;
+  }
+
+  .text-app {
+    font-size: 14px;
   }
 
   .app-links a {
