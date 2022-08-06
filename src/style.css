@@ -36,18 +36,16 @@ h3 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
-  opacity: 0.7;
 }
 
 p {
-  background: var(--secondary-color);
-  border-radius: 4px;
   font-size: 18px;
   font-weight: lighter;
   line-height: 1.5;
 }
 
 a {
+  text-decoration: none;
   align-items: center;
 }
 
@@ -143,6 +141,11 @@ img {
 .photo {
   margin: 80px;
   width: 500px;
+  border-radius: 70% 50%;
+}
+
+.social-links {
+  color:black;
 }
 
 @media (max-width: 576px) {
